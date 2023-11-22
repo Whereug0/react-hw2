@@ -1,0 +1,39 @@
+.card {
+    width: 400px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.card:last-child {
+    margin: 0;
+}
+
+.poster {
+    height: 270px;
+    width: 100%;
+}
+
+
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+.raiting {
+    font-size: 15px;
+    margin-top: 10px;
+}
